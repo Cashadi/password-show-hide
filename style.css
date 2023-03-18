@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #87d68d;
+}
+.container {
+  position: relative;
+  background: #fff;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.container input {
+  border: none;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+.container input::placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+.container span {
+  cursor: pointer;
+  color: #adadad;
+  margin-left: 0.4rem;
+}
